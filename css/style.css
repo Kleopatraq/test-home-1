@@ -1,0 +1,335 @@
+:root {
+    --main-title-color: #ffffff;
+    --second-title-color: #303030;
+    --main-btn-color: #ffffff;
+    --second-btn-color: #303030;
+
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+}
+
+ul {
+    margin: 0;
+    padding-left: 0;
+}
+
+button {
+    cursor: pointer;
+}
+
+address {
+    font-style: normal;
+}
+
+img {
+    display: block;
+}
+
+body {
+    font-family: 'Open Sans, sans-serif';
+    letter-spacing: 0.02em;
+}
+
+.list {
+    list-style: none;
+}
+
+.link {
+    text-decoration: none;
+}
+
+.section {
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+
+.container {
+    width: 1200px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: 0 auto;
+    outline: 2px solid red;
+}
+
+.btn {
+    min-width: 160px;
+    height: 40px;
+    font-family: inherit;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 1.33;
+    letter-spacing: 0.09em;
+    text-transform: uppercase;
+    cursor: pointer;
+    border: 1px solid #FF6C00;
+    border-radius: 25px;
+    background-color: transparent;
+}
+
+.title {
+    font-family: 'Raleway', sans-serif;
+    font-size: 42px;
+    line-height: 49px;
+    letter-spacing: 0.05em;
+}
+
+.top-text {
+    font-weight: 600;
+    font-size: 11px;
+    line-height: 1.36;
+    text-transform: uppercase;
+}
+
+
+/** -------------------HEDEAR-------------------*/
+.header {
+    background-color: gray;
+    padding-top: 32px;
+}
+
+.header-container {
+    display: flex;
+    align-items: center;
+}
+
+.header-navigation {
+    display: flex;
+    align-items: center;
+    margin-right: auto;
+}
+
+.header-logo {
+    margin-right: 130px;
+}
+
+.header-list {
+    display: flex;
+    gap: 30px;
+}
+
+.header-link {
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 1.33;
+    letter-spacing: 0.1em;
+    color: #FFFFFF;
+}
+
+.header-link:is(hover,
+    :focus) {
+    color: tomato;
+}
+
+.header-phone {
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 1.33;
+    letter-spacing: 0.1em;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    margin-right: 43px;
+    color: #FFFFFF;
+}
+
+.header-btn {
+    color: var(--main-btn-color, #ffffff);
+}
+
+/** -------------------Hero-------------------*/
+
+.hero {
+    background-color: grey;
+}
+
+.hero-list {}
+
+
+
+.hero-item {}
+
+.hero-link {
+    font-weight: 600;
+    font-size: 11px;
+    line-height: 1.36;
+    letter-spacing: 0.2em;
+    color: #303030;
+
+}
+
+.hero-link:is(hover,
+    :focus) {
+    color: tomato;
+}
+
+
+.hero-top-text {
+    color: rgba(157, 164, 189, 0.6);
+    margin-bottom: 20px;
+}
+
+.hero-title {
+    font-family: 'Raleway', sans-serif;
+    font-size: 72px;
+    line-height: 1.18;
+    letter-spacing: 0.05em;
+    color: var(--main-title-color, #ffffff);
+    margin-bottom: 20px;
+}
+
+.hero-bottom-text {
+    font-size: 18px;
+    line-height: 1.67;
+    letter-spacing: 0.02em;
+    color: #9DA4BD;
+}
+
+/** -------------------About-------------------*/
+
+.about {}
+
+.about-list {}
+
+
+.about-item {}
+
+.about-image {}
+
+.about-top-text {
+    color: #303030;
+}
+
+.about-title {
+    color: var(--second-title-color, #303030);
+}
+
+.about-bottom-text {
+    font-size: 18px;
+    line-height: 1.67;
+    letter-spacing: 0.02em;
+    color: #555555;
+}
+
+.about-text {
+    font-size: 14px;
+    line-height: 1.86;
+    letter-spacing: 0.02em;
+    color: #555555;
+
+}
+
+.about-btn {
+    color: var(--second-btn-color, #303030);
+}
+
+/** -------------------PRICES-------------------*/
+
+.prices {
+    background-color: #303030;
+}
+
+.prices-top-text {
+    color: rgba(157, 164, 189, 0.6);
+}
+
+.prices-title {
+    color: var(--main-title-color, #ffffff);
+}
+
+.prices-list {}
+
+.prices-item {}
+
+.prices-item-text {
+    font-size: 18px;
+    line-height: 1.67;
+    letter-spacing: 0.02em;
+    color: #9DA4BD;
+}
+
+.prices-btn {
+    color: (var(--main-btn-color), #FFFFFF);
+
+}
+
+/** -------------------BENEFITS-------------------*/
+
+.benefits {}
+
+.benefits-list {}
+
+.list {}
+
+.benefits-item .count {
+    font-weight: 700;
+    font-size: 42px;
+    line-height: 1.35;
+    text-align: center;
+    letter-spacing: 0.05em;
+    color: #303030;
+}
+
+.benefits-item .count+p {
+    font-weight: 600;
+    font-size: 11px;
+    line-height: 1.36;
+    text-align: center;
+    color: #303030;
+}
+
+.benefits-item-text {}
+
+.benefits-top-text {
+    color: #303030;
+}
+
+.benefits-title {
+    color: (--second-title-color, #303030);
+}
+
+.benefits-text {
+    font-size: 18px;
+    line-height: 1.67;
+    letter-spacing: 0.02em;
+    color: #555555;
+}
+
+/** -------------------BARBERS-------------------*/
+.barbers {}
+
+.barbers-top-text {
+    color: #303030;
+}
+
+.barbers-title {
+    color: var(--second-title-color, #303030);
+}
+
+.barbers-list {}
+
+
+.barbers-item {}
+
+.barbers-subtitle {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.38;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #303030;
+}
+
+.barbers-item-text {
+    font-size: 14px;
+    line-height: 1.35;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #FF6C00;
+}
