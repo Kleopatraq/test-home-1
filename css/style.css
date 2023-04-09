@@ -60,6 +60,8 @@ body {
 }
 
 .btn {
+    min-width: 160px;
+    height: 40px;
     font-family: inherit;
     font-weight: 600;
     font-size: 12px;
@@ -67,6 +69,9 @@ body {
     letter-spacing: 0.09em;
     text-transform: uppercase;
     cursor: pointer;
+    border: 1px solid #FF6C00;
+    border-radius: 25px;
+    background-color: transparent;
 }
 
 .title {
@@ -90,13 +95,25 @@ body {
     padding-top: 32px;
 }
 
-.header-navigation {}
+.header-container {
+    display: flex;
+    align-items: center;
+}
 
-.header-logo {}
+.header-navigation {
+    display: flex;
+    align-items: center;
+    margin-right: auto;
+}
 
-.header-list {}
+.header-logo {
+    margin-right: 130px;
+}
 
-.header-item {}
+.header-list {
+    display: flex;
+    gap: 30px;
+}
 
 .header-link {
     font-weight: 600;
@@ -118,7 +135,7 @@ body {
     letter-spacing: 0.1em;
     letter-spacing: 0.1em;
     text-transform: uppercase;
-
+    margin-right: 43px;
     color: #FFFFFF;
 }
 
